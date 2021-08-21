@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: external
+spec:
+  type: {{ .Values.ext_service.type }}
+  ports:
+    - port: {{ .Values.ext_service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+      targetPort: {{ .Values.ext_service.targetport}}
+  selector:
+    {{- include "msfrontend.selectorLabels" . | nindent 4 }}

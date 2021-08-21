@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "msproductcatalog.fullname" . }}-test-connection"
+  labels:
+    {{- include "msproductcatalog.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": test
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args: ['{{ include "msproductcatalog.fullname" . }}:{{ .Values.service.port }}']
+  restartPolicy: Never

@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "msfrontend.fullname" . }}
+  labels:
+    {{- include "msfrontend.labels" . | nindent 4 }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+      targetPort: {{ .Values.service.targetport}}
+  selector:
+    {{- include "msfrontend.selectorLabels" . | nindent 4 }}
