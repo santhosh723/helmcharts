@@ -1,18 +1,18 @@
-# Default values for msadimg_d711cefbf8740a4af0b457361c143b75b42803a5"
+# Default values for msadimg_c2ec8d049d5cacc3a5c8b30ee4b7a4a33dbc063f"
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
 
 image:
-  repository: 863485925838.dkr.ecr.eu-west-1.amazonaws.com/msadimg_d711cefbf8740a4af0b457361c143b75b42803a5"
+  repository: 863485925838.dkr.ecr.eu-west-1.amazonaws.com/msadimg_c2ec8d049d5cacc3a5c8b30ee4b7a4a33dbc063f"
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "msadimg_d711cefbf8740a4af0b457361c143b75b42803a5"
+  tag: "msadimg_c2ec8d049d5cacc3a5c8b30ee4b7a4a33dbc063f"
 
 imagePullSecrets: []
 nameOverride: ""
-fullnameOverride: "msadimg_d711cefbf8740a4af0b457361c143b75b42803a5"
+fullnameOverride: "msadimg_c2ec8d049d5cacc3a5c8b30ee4b7a4a33dbc063f"
 
 serviceAccount:
   # Specifies whether a service account should be created
