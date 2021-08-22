@@ -8,7 +8,7 @@ image:
   repository: 863485925838.dkr.ecr.eu-west-1.amazonaws.com/msloadgenerator
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "msloadimg_9fd791c8ab33177933c7b9f4441013378f49ee5e"
+  tag: "msloadimg_1ef016121e76e555d109e6de86137d27bf6d1c60"
 
 imagePullSecrets: []
 nameOverride: ""
