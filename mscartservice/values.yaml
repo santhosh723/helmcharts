@@ -1,18 +1,18 @@
-# Default values for mscartservice.
+# Default values for "
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
 
 image:
-  repository: 863485925838.dkr.ecr.eu-west-1.amazonaws.com/mscartservice
+  repository: 863485925838.dkr.ecr.eu-west-1.amazonaws.com/"
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "mscart_asdfasdf"
+  tag: ""
 
 imagePullSecrets: []
 nameOverride: ""
-fullnameOverride: "mscartservice"
+fullnameOverride: ""
 
 serviceAccount:
   # Specifies whether a service account should be created
