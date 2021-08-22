@@ -8,7 +8,7 @@ image:
   repository: 863485925838.dkr.ecr.eu-west-1.amazonaws.com/mscheckoutservice
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "mscheckoutimg_4da0fca1d6169d1855661212b9b6f172250b5b46"
+  tag: "mscheckoutimg_0ad496e01190a554b682e8684ee86b6c310c5f24"
 
 imagePullSecrets: []
 nameOverride: ""
