@@ -8,7 +8,7 @@ image:
   repository: 863485925838.dkr.ecr.eu-west-1.amazonaws.com/msshipping
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "msshipimg_a26d10020afcf08d8c583a92a9d7d9a809cb7ef3"
+  tag: "msshipimg_115cc4af3b23e09c2b0417e004ff2e1c43be132d"
 
 imagePullSecrets: []
 nameOverride: ""
