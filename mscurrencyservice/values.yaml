@@ -8,7 +8,7 @@ image:
   repository: gcr.io/google-samples/microservices-demo/currencyservice
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v0.2.4"
+  tag: "mscurrencyimg_2931849324"
 
 imagePullSecrets: []
 nameOverride: ""
