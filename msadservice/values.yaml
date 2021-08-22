@@ -1,18 +1,18 @@
-# Default values for msadservice.
+# Default values for bar_3q43124314245mfdlgkslkg"
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
 
 image:
-  repository: 863485925838.dkr.ecr.eu-west-1.amazonaws.com/msadservice
+  repository: 863485925838.dkr.ecr.eu-west-1.amazonaws.com/bar_3q43124314245mfdlgkslkg"
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "msad_11728af7f13fe8b30ae842cddb614075658b4bdf"
+  tag: "bar_3q43124314245mfdlgkslkg"
 
 imagePullSecrets: []
 nameOverride: ""
-fullnameOverride: "msadservice"
+fullnameOverride: "bar_3q43124314245mfdlgkslkg"
 
 serviceAccount:
   # Specifies whether a service account should be created
