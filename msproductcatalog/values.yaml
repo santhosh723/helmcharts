@@ -8,7 +8,7 @@ image:
   repository: 863485925838.dkr.ecr.eu-west-1.amazonaws.com/msproduct
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "msprodimg_b72148d74a7f29a1abae2e27b705492781243944"
+  tag: "msprodimg_efc686f8a680ebed2d03a27c3a409b7fc43f00d2"
 
 imagePullSecrets: []
 nameOverride: ""
