@@ -8,7 +8,7 @@ image:
   repository: 863485925838.dkr.ecr.eu-west-1.amazonaws.com/mspaymentservice
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "mspayimg_c6db90490edb9d9f4196b11c56167da9f6060121"
+  tag: "mspayimg_85a524c2c219aa95e5d2e1e78f6b3165d6fddb91"
 
 imagePullSecrets: []
 nameOverride: ""
