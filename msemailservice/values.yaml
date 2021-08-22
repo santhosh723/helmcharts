@@ -8,7 +8,7 @@ image:
   repository: 863485925838.dkr.ecr.eu-west-1.amazonaws.com/msemailservice
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "msemailimg_2ef7b0890f511c6593f4f3bdf9ceb007e395985b"
+  tag: "msemailimg_b4f364fb6e5cd86afb175e71849f36f6558b9450"
 
 imagePullSecrets: []
 nameOverride: ""
