@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: 863485925838.dkr.ecr.eu-west-1.amazonaws.com/msadservice
+  repository: 863485925838.dkr.ecr.eu-west-1.amazonaws.com/mscurrencyservice
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "mscurrencyimg_3d2b90c258e7447e93b67fe6f8cf72f376431745"
